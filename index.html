@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>DFL</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link href="styles.5d75e2376654027ec1a9.bundle.css" rel="stylesheet"/></head>
+<body style="margin: auto;">
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+        console.log('Service Worker registered');
+      }).catch(function(err) {
+        console.log('Service Worker registration failed: ', err);
+      });
+    }
+  </script>
+
+  <app-root>
+    <div id="pre-loading">
+      <div class="messaging">
+          <h1>
+              App is Loading
+          </h1>
+          <p>
+              Please wait ..
+          </p>
+      </div>
+  </div>
+  </app-root>
+  <!-- <link href="https://unpkg.com/@angular/material/core/theming/prebuilt/indigo-pink.css" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>body { font-family: Roboto, Arial, sans-serif; }</style>
+<script type="text/javascript" src="inline.b454d07a093ef280c7e5.bundle.js"></script><script type="text/javascript" src="polyfills.e7fdebaa30a2b7b84c1a.bundle.js"></script><script type="text/javascript" src="vendor.8791d44e652201a5ea96.bundle.js"></script><script type="text/javascript" src="main.f24e97361f280741a9d5.bundle.js"></script></body>
+</html>
